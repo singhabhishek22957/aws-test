@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 
 app.get("/health", (req, res) => {
     res.status(200).json({
-        message: "Everything is fine",
+        message: "Everything is fine and also work with CI/CD pipeline",
         success: true,
         statusCode:200
     })
